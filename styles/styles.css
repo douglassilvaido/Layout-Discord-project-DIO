@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero-section {
+    background-image: url(/docs/imgs/Header\ Background.png); /* Cor roxa do Discord */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-section .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.hero-section .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 24px;
+}
+
+.hero-section .btn:hover{
+    opacity: 90%;
+    box-shadow: 5px 0px 10px ;
+}
+
+.hero-section .btn-primary {
+    background: #ffffff;
+    color: #000;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .btn-secondary {
+    background: #000;
+    color: #fff;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-top: 3px solid rgb(224, 224, 238);
+    box-shadow: 10px 2px rgba(215, 217, 229, 0.8);
+}
+
+.section .alt {
+    background: #f6f6f6;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 40px 20px;
+
+}
+
+.text-content{
+    text-align: left;
+}
+
+.section.alt .content.alt-end{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.content.alt-end .text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content.alt-end h2{
+    font-size: 30px;
+    font-weight: 900;
+    max-width: 500px;
+    text-align: center;
+}
+.content.alt-end p{
+    width: 100%;
+    max-width: 650px;
+    text-align: center;
+}
+
+
+.section img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    max-width: 220px;
+}
+
+.section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    max-width: 360px;
+}
+
+.footer {
+    background: #23272A;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .logo img {
+    width: 8rem;
+}
